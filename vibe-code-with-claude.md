@@ -113,4 +113,12 @@ Once Claude completes the assigned task, it's time to commit the changes. A reco
 
 From here, proceed to complete all remaining tasks in the list. Ensure you commit and push regularly to keep your code safely stored and easily trackable.
 
+Create a new file named `CLAUDE.md` and initialize it by entering the `/init` prompt to set up the necessary configurations. Once the setup is complete, proceed to generate a `README.md` file by using the following prompt:
+
+```text
+Create a complete "README.md" for this project.
+The README should be clean, modern, and developer-friendly, covering the project overview, features, tech stack, screenshots section placeholders, installation steps, development setup, build commands, project structure, configuration notes, and contribution guidelines.
+Include clear instructions for running the app in development and production modes. Keep the writing concise, practical, and consistent with the minimalist philosophy of the project.
+```
+
 You can find the repository for this guide at the following link: [https://github.com/iqbaleff214/todo-app-desktop](https://github.com/iqbaleff214/todo-app-desktop). 
